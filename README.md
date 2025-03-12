@@ -1,6 +1,6 @@
-# Third_Period
+# Third_Period ⏰​
 
-## Datas:
+## ​🗓️​ Datas: ​
 
 ### Algoritmos e Estruturas de Dados 3:
 - Prova #1: 30/04/25.
@@ -23,11 +23,11 @@
 - Trabalhos (30%).
 
 ### Programação 2:
-24/03: A0.
-06/05: A1.
-19/05: A2.
-17/06: A3.
-18/06: A4.
+- 24/03: A0.
+- 06/05: A1.
+- 19/05: A2.
+- 17/06: A3.
+- 18/06: A4.
 
 
 
