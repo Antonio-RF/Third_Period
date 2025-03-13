@@ -2,13 +2,13 @@
 
 ## ​🗓️​ Datas: ​
 
-### Algoritmos e Estruturas de Dados 3:
+### Algoritmos e Estruturas de Dados 3 (CI1057):
 - Prova #1: 30/04/25.
 - Trabalho #1: 30/04/25.
 - Prova #2: -
 - Trabalho #2: -
 
-### Matemática Discreta:
+### Matemática Discreta (CI1237):
 - 8/4: primeira prova.
 - 1/5: Não haverá aula (Feriado: Dia do Trabalho).
 - 13/5: segunda prova.
@@ -17,23 +17,23 @@
 - 1/7: terceira prova.
 - 10/7: exame final.
 
-### Arquitetura de Computadores:
+### Arquitetura de Computadores (CI1212):
 - Prova 1 (35%) : 22/04/2025.
 - Prova 2 (35%) : 24/06/2025.
 - Trabalhos (30%).
 
-### Programação 2:
+### Programação 2 (CI1002):
 - 24/03: A0.
 - 06/05: A1.
 - 19/05: A2.
 - 17/06: A3.
 - 18/06: A4.
 
-### Estatatística:
+### Introdução à Estatatística (CE009):
 - 24/04: Prova 1.
 - 17/06: Prova 2.
 
-### Cálculo 2:
+### Cálculo 2 (CM312):
 - 14/04: Prova 1.
 - 21/05: Prova 2.
 - 25/06: Prova 3.
