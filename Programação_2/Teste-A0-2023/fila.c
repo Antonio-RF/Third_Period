@@ -1,4 +1,5 @@
 #include "fila.h"
+#include <string.h>
 
 struct fila_t *cria_fila() {
     struct fila_t *fila = malloc(sizeof(struct fila_t));
@@ -8,29 +9,31 @@ struct fila_t *cria_fila() {
     return fila;
 }
 
-struct nodo_t *cria_nodo(char *titulo, char *texto) {
+struct nodo_t *cria_nodo(char titulo[33], char texto[513]) {
     struct nodo_t *nodo = malloc(sizeof(struct nodo_t));
     nodo->idade = 0;
     nodo->prox = NULL;
-    nodo->titulo = titulo;
-    nodo->texto = texto;
+    //destruir tudo no destroi nodo.
+    //pedir explicação para algum professor!
+    strcpy(nodo->titulo, titulo);
+    strcpy(nodo->texto, texto);
     return nodo;
 }
 
 int fila_insere(struct nodo_t *noticia, struct fila_t *fila) {
+    if (!noticia || !fila) return 0;
+
+    noticia->prox = NULL;
+    
     if (fila->num == 0) {
         fila->prim = noticia;
         fila->fim = noticia;
-        noticia->prox = NULL;
     }
     else {
-        //ERRO AQUI TALVEZ!
         fila->fim->prox = noticia;
         fila->fim = noticia;
-        noticia->prox = NULL;
     }
     fila->num++;
-    //printf("NUmero de integrantes fila: %d\n", fila->num);
     //conferindo...
     struct nodo_t *aux = fila->prim;
         while(aux != NULL) {
@@ -123,39 +126,20 @@ void seleciona_noticia(struct fila_t *breaknews, struct fila_t *informe) {
     }
 }
 
-void atualiza_filas(struct fila_t *breaknews, struct fila_t *informes) {
-    //Atualizando as breaknews:
-    if (breaknews->num > 0) {
-        struct nodo_t *aux = breaknews->prim;
-        while (aux != NULL) {
-            aux->idade++;
+void atualiza_filas(struct fila_t *fila) {
+    //Atualizando:
+    struct nodo_t *aux = fila->prim;
+    while (aux != NULL) {
+        aux->idade++;
 
-            //se for maior, ele irá retirar da fila.
-            if (aux->idade > 3) {
-                struct nodo_t *aux2 = aux;
-                aux = aux->prox;
-                free(aux2);
-            }
-            else {
-                aux = aux->prox;
-            }
+        //se for maior, ele irá retirar da fila.
+        if (aux->idade > 3) {
+            struct nodo_t *aux2 = aux;
+            aux = aux->prox;
+            free(aux2);
         }
-    }
-    //Atualizando os informes:
-    if (informes->num > 0) {
-        struct nodo_t *aux = informes->prim;
-        while (aux != NULL) {
-            aux->idade++;
-
-            //se for maior, ele irá retirar da fila.
-            if (aux->idade > 3) {
-                struct nodo_t *aux2 = aux;
-                aux = aux->prox;
-                free(aux2);
-            }
-            else {
-                aux = aux->prox;
-            }
+        else {
+            aux = aux->prox;
         }
     }
 }

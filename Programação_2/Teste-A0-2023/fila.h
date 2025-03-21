@@ -5,8 +5,8 @@
 #include <stdlib.h>
 
 struct nodo_t {
-    char *titulo;
-    char *texto;
+    char titulo[33];
+    char texto[513];
     int idade;
     struct nodo_t *prox;
 };
@@ -23,7 +23,7 @@ int fila_insere(struct nodo_t *noticia, struct fila_t *fila);
 int fila_remove(struct nodo_t *noticia, struct fila_t *fila);
 void printa_edicao(struct nodo_t *noticia1, struct nodo_t *noticia2, int controle);
 void seleciona_noticia(struct fila_t *breaknews, struct fila_t *informe);
-void atualiza_filas(struct fila_t *breaknews, struct fila_t *informes);
+void atualiza_filas(struct fila_t *fila);
 void lista_imprime(struct fila_t *breaknews, struct fila_t *informes);
 
 #endif

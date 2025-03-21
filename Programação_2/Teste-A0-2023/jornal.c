@@ -31,13 +31,8 @@ int main() {
                 char titulo[33], texto[513];
                 int tipo;
                 requisita(titulo, texto, &tipo);
-                //printf("Titulo: %s\n", titulo);
-                //printf("Texto: %s\n", texto);
-                //printf("tipo: %d\n", tipo);
                 //Criando a notícia a partir da entrada do usuário:
                 struct nodo_t *noticia = cria_nodo(titulo, texto);
-                //printf("Titulo noticia: %s\n", noticia->titulo);
-                //printf("Texto noticia: %s\n", noticia->texto);
                 //breaknews e informe sendo inseridas.
                 if (tipo == 0)
                     fila_insere(noticia, break_news);
@@ -50,7 +45,8 @@ int main() {
             //Entrada = 2.
             case 2:
                 seleciona_noticia(break_news, informe);
-                atualiza_filas(break_news, informe);
+                atualiza_filas(break_news);
+                atualiza_filas(informe);
                 break;
             //Entrada = 3.
             case 3:
