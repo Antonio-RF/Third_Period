@@ -13,7 +13,6 @@ struct nodo_t *cria_nodo(char titulo[33], char texto[513]) {
     struct nodo_t *nodo = malloc(sizeof(struct nodo_t));
     nodo->idade = 0;
     nodo->prox = NULL;
-    //destruir tudo no destroi nodo.
     //pedir explicação para algum professor!
     strcpy(nodo->titulo, titulo);
     strcpy(nodo->texto, texto);
@@ -34,16 +33,6 @@ int fila_insere(struct nodo_t *noticia, struct fila_t *fila) {
         fila->fim = noticia;
     }
     fila->num++;
-    //conferindo...
-    struct nodo_t *aux = fila->prim;
-        while(aux != NULL) {
-            printf("-------------------------------------------\n");
-            printf("Título: %s\n", aux->titulo);
-            printf("Texto: %s\n", aux->texto);
-            printf("-------------------------------------------\n");
-            aux = aux->prox;
-        }
-    //conferindo...
 }
 
 int fila_remove(struct nodo_t *noticia, struct fila_t *fila) {
@@ -173,6 +162,22 @@ void lista_imprime(struct fila_t *breaknews, struct fila_t *informes) {
         free(aux2);
     }
     printf("==============================================================\n");
+}
+
+int destroi_fila(struct fila_t *fila) {
+    if (!fila || fila->num == 0 ) {
+        return 0;
+    }
+    
+    struct nodo_t *aux = fila->prim;
+    while (aux != NULL) {
+        struct nodo_t *temp = aux; 
+        aux = aux->prox;  
+        free(temp);  
+    }
+
+    free(fila);
+    return 1;
 }
 
 

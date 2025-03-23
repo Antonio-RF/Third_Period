@@ -25,5 +25,6 @@ void printa_edicao(struct nodo_t *noticia1, struct nodo_t *noticia2, int control
 void seleciona_noticia(struct fila_t *breaknews, struct fila_t *informe);
 void atualiza_filas(struct fila_t *fila);
 void lista_imprime(struct fila_t *breaknews, struct fila_t *informes);
+int destroi_fila(struct fila_t *fila);
 
 #endif

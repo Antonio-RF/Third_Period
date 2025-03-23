@@ -52,11 +52,15 @@ int main() {
             case 3:
                 controle = 0;
                 lista_imprime(break_news, informe);
+                destroi_fila(break_news);
+                destroi_fila(informe);
                 break;
         }
-        printf("\n- (1) Cadastrar notícia\n");
-        printf("- (2) Fechar edição\n");
-        printf("- (3) Sair\n");
-        scanf("%d", &input1);
+        if (input1 == 1 || input1 == 2) {
+            printf("\n- (1) Cadastrar notícia\n");
+            printf("- (2) Fechar edição\n");
+            printf("- (3) Sair\n");
+            scanf("%d", &input1);
+        }
     }
 }
