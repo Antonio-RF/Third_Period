@@ -1,0 +1,16 @@
+================ JUKEBOX MERCENÁRIA ================
+1 - Fazer pedido
+2 - Atender pedido
+3 - Sair
+Digite a opção: Digite o nome da música: Digite o valor da música (min. R$1): R$1 - Fazer pedido
+2 - Atender pedido
+3 - Sair
+Digite a opção: Tocou a música Lala com o lance 10.000000 (0 pedidos na fila)
+1 - Fazer pedido
+2 - Atender pedido
+3 - Sair
+Digite a opção: Não há pedidos de música para serem atendidos
+1 - Fazer pedido
+2 - Atender pedido
+3 - Sair
+Digite a opção: 
