@@ -5,7 +5,7 @@
 #include "pedido.h"
 
 jukefila* criar_jukefila() {
-    struct jukefila *fila = malloc(sizeof(struct jukefila));
+	struct jukefila *fila = malloc(sizeof(struct jukefila));
     fila->inicio = NULL;
     fila->final = NULL;
     return fila;
