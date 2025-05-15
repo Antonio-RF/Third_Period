@@ -11,7 +11,7 @@
 ### Matemática Discreta (CI1237):
 - ~~10/4: primeira prova.~~
 - ~~1/5: Não haverá aula (Feriado: Dia do Trabalho).~~ 
-- 15/5: segunda prova.
+- ~~15/5: segunda prova.~~
 - 5/6: Não haverá aula (Feira de Cursos e Profissões).
 - 19/6: Não haverá aula (Feriado: Corpus Christi).
 - 1/7: terceira prova.
