@@ -5,10 +5,10 @@
 ### Algoritmos e Estruturas de Dados 3 (CI1057):
 - ~~Prova #1: 07/05/25.~~
 - ~~Trabalho #1: 07/05/25.~~
-- Prova #2: 27/06/25
-- Trabalho #2: 27/06/25
+- ~~Prova #2: 27/06/25~~
+- ~~Trabalho #2: 27/06/25~~
 <div align="left">
-<h2>Nota final: --</h2>
+<h2>Nota final: 84</h2>
 </div>
 
 <hr style="border: 2px solid #90EE90;">
