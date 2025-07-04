@@ -8,7 +8,7 @@
 - ~~Prova #2: 27/06/25~~
 - ~~Trabalho #2: 27/06/25~~
 <div align="left">
-<h2>Nota final: 84</h2>
+<h2>Nota final: 88</h2>
 </div>
 
 <hr style="border: 2px solid #90EE90;">
@@ -16,9 +16,9 @@
 ### Matemática Discreta (CI1237):
 - ~~10/4: primeira prova.~~
 - ~~15/5: segunda prova.~~
-- 1/7: terceira prova.
+- ~~1/7: terceira prova.~~
 <div align="left">
-<h2>Nota final: --</h2>
+<h2>Nota final: 70</h2>
 </div>
 
 <hr style="border: 2px solid #90EE90;">
@@ -61,7 +61,11 @@
 
 ## Ordem crescente de datas em uma lista de todas juntas:
 
-### [~~24/03/2025~~, ~~10/04/2025~~, ~~14/04/2025~~, ~~22/04/2025~~, ~~06/05/25~~, ~~07/05/2025~~, ~~15/05/2025~~, ~~21/05/2025~~, ~~17/06/2025~~, ~~18/06/2025~~, ~~24/06/2025~~, ~~25/06/2025~~, 01/07/2025]
+### [~~24/03/2025~~, ~~10/04/2025~~, ~~14/04/2025~~, ~~22/04/2025~~, ~~06/05/25~~, ~~07/05/2025~~, ~~15/05/2025~~, ~~21/05/2025~~, ~~17/06/2025~~, ~~18/06/2025~~, ~~24/06/2025~~, ~~25/06/2025~~, ~~01/07/2025~~]
 
+<hr style="border: 2px solid #90EE90;">
 
+<div align="left">
+<h1>Média final do Terceiro Semestre: 78.2</h1>
+</div>
 
